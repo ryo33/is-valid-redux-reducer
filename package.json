@@ -6,7 +6,8 @@
   "scripts": {
     "build": "babel src --out-dir lib",
     "test": "mocha --compilers js:babel-register --recursive ./test/*.spec.js",
-    "test:watch": "npm test -- --watch"
+    "test:watch": "npm test -- --watch",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
