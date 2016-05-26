@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Checks if the reducer is valid",
   "main": "./lib/index.js",
+  "files": [
+    "lib",
+    "src"
+  ],
   "scripts": {
     "build": "babel src --out-dir lib",
     "test": "mocha --compilers js:babel-register --recursive ./test/*.spec.js",
