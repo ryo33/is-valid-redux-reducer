@@ -1,6 +1,8 @@
 isValidReduxReducer
 ====
-Checks if the reducer is valid
+Checks if the reducer is valid  
+
+[![npm version](https://badge.fury.io/js/is-valid-redux-reducer.svg)](https://badge.fury.io/js/is-valid-redux-reducer)
 
 ## Installation
 `npm install --save is-valid-redux-reducer`  
