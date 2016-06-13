@@ -20,9 +20,8 @@ export default function isValidReduxReducer(reducer, throwError = false) {
     }
   }
 
-  const state = []
-  const newState = reducer(state, {type: randomType()})
-  if (state !== newState) {
+  const newState = reducer(initialState, {type: randomType()})
+  if (newState !== initialState) {
     if (throwError) {
       throw new Error('Reducer must return the current state for any unknown actions.')
     } else {
