@@ -1,6 +1,6 @@
 {
   "name": "is-valid-redux-reducer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Checks if the reducer is valid",
   "main": "./lib/index.js",
   "files": [
