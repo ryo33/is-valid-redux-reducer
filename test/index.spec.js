@@ -19,14 +19,6 @@ describe('isValidReduxReducer', () => {
     expect(() => isValidReduxReducer(reducerB, true)).to.throw(Error, 'Reducer must return the initial state if the state is undefined.')
   })
 
-  const reducerC = (state, action) => ({})
-  it('should return false when the reducer does not return the current state', () => {
-    expect(isValidReduxReducer(reducerC)).to.be.false
-  })
-  it('should throw a error when the reducer does not return the current state', () => {
-    expect(() => isValidReduxReducer(reducerC, true)).to.throw(Error, 'Reducer must return the current state for any unknown actions.')
-  })
-
   const reducerD = (state = {}, action) => state
   it('should return true when the reducer is valid', () => {
     expect(isValidReduxReducer(reducerD)).to.be.true
