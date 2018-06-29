@@ -1,1 +1,1 @@
-# MOVED TO [GITLAB](https://github.com/ryo33/is-valid-redux-reducer)
+# MOVED TO [GITLAB](https://gitlab.com/ryo33/is-valid-redux-reducer)
